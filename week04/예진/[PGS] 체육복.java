@@ -6,7 +6,13 @@ class Solution {
     public int solution(int n, int[] lost, int[] reserve) {
         int answer = 0;
 
+<<<<<<< HEAD
         Arrays.sort(lost);
+=======
+        // 앞번호 학생부터 처리해야 최적해가 보장되는 그리디 문제
+        Arrays.sort(lost);
+
+>>>>>>> 1a6222e7f0eaee5905d90804d2055dd4750edfe3
         // 실제 체육복이 필요한 학생 리스트
         List<Integer> needCloth = new ArrayList<>();
 
