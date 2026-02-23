@@ -1,0 +1,53 @@
+public class Solution {
+    public String solution(String p) {
+        // 입력이 빈 문자열이면 그대로 반환
+        if (p.isEmpty()) return "";
+    // u, v로 문자열 나누기
+    String u = "";
+    String v = "";
+    int count = 0;
+    for (int i = 0; i < p.length(); i++) {
+        if (p.charAt(i) == '(') count++;
+        else count--;
+
+        // count가 0이 되는 순간 u 결정
+        if (count == 0) {
+            u = p.substring(0, i + 1);   // 0~i까지
+            v = p.substring(i + 1);      // 나머지
+            break;
+        }
+    }
+
+    // u가 올바른 괄호 문자열인지 판단
+    boolean isCorrect = true;
+    int temp = 0;  // '('와 ')' 균형 확인용
+
+    for (int i = 0; i < u.length(); i++) {
+        if (u.charAt(i) == '(') temp++;
+        else temp--;
+
+        if (temp < 0) {  // 중간에 ')'가 '('보다 많으면 올바르지 않음
+            isCorrect = false;
+            break;
+        }
+    }
+
+    // 올바른 경우 → u 그대로 + v 재귀 처리
+    if (isCorrect) {
+        return u + solution(v);
+    } else {
+        // 올바르지 않은 경우 → 문제에서 요구하는 변환
+        String result = "(";
+        result += solution(v);  // v 재귀 처리
+        result += ")";
+
+        // u의 양 끝 제거 후 괄호 뒤집기
+        u = u.substring(1, u.length() - 1);
+        for (int i = 0; i < u.length(); i++) {
+            if (u.charAt(i) == '(') result += ")";
+            else result += "(";
+        }
+        return result;
+    }
+}
+}
