@@ -1,10 +1,7 @@
 import java.util.*;
 
 class Solution {
-
-    private int[] dx = { -1, 1, 1, 1 };
-    private int[] dy = { -1, 1, -1, -1 };
-
+    
     public int[] solution(String[][] places) {
         int[] answer = new int[places.length];
 
