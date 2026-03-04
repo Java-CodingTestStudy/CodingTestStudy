@@ -50,6 +50,7 @@
 | Week 09</br>(26.01.29.목) |✅ |✅  |✅ |✅ |✅ |✅ |
 | Week 10</br>(26.02.05.목) |✅| ✅ |✅ | ✅ |✅ |✅ |
 | Week 11</br>(26.02.19.목) |✅| ✅ |✅ |✅ |✅ |✅ |
+| Week 12</br>(26.02.23.월) |✅| ✅ |✅ |✅ |✅ |✅ |
 
 
 | 문제 | 예진 | 채원 | 성준 | 의선 | 선우 | 남훈 |
@@ -74,10 +75,11 @@
 | 백트래킹<br>1 문제 | ✔️  |   |   |      | | |
 | week01<br>3 문제 |✔️| 2️⃣ | 2️⃣ |  2️⃣ | ✔️ | ✔️ |
 | week02<br>5 문제 | ✔️| 3️⃣ | 2️⃣ | 4️⃣ | 3️⃣ | ✔️ |
-| week03<br>4 문제 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-| week04<br>5 문제 | ✔️ | ✔️ | ✔️ | 4️⃣ | ✔️ | ✔️ |
-| week05<br>7 문제 | ✔️ | 5️⃣ | 5️⃣ |  4️⃣| 3️⃣ | ✔️ |
-| week06<br>9 문제 | ✔️ | 6️⃣ | 7️⃣ |  5️⃣| 6️⃣ | 8️⃣ |
+| week03<br>4 문제 | ✔️ | ✔️ | ✔️ | ✔️  | ✔️ | ✔️ |
+| week04<br>5 문제 | ✔️ | ✔️ | ✔️ | 4️⃣  | ✔️ | ✔️ |
+| week05<br>7 문제 | ✔️ | 5️⃣ | 5️⃣ |  4️⃣ | 3️⃣ | ✔️ |
+| week06<br>9 문제 | ✔️ | 6️⃣ | 7️⃣ |  5️⃣ | 6️⃣ | 8️⃣ |
+| week07<br>4 문제 | ✔️ | 3️⃣ | 3️⃣ |  2️⃣ | 2️⃣ | ✔️ |
 
 
 ## 🔸스터디 규칙
@@ -283,6 +285,30 @@ Yejin / 코테를 위한 알고리즘 / 그리디 / 5문제
 ---
 
 #### 💻 기타 문제집
+
+
+<details markdown="1">
+<summary><strong>📄 신한DS SW 아카데미 (모의 코딩테스트) </summary></strong>
+ 
+* 알고리즘  
+  * https://codro.notion.site/3-7b5aa321015e4ba497d0d32782a2f441  
+  * https://codro.notion.site/1-e613e479d348445f89f239bd2deb7f39  
+  * https://codro.notion.site/2-79edf55cf9374e539dbe70bc13d669b3  
+  * https://codro.notion.site/3-e5868a1f968b4002a582cd0f8e84260c?pvs=74  
+  * https://codro.notion.site/1-1a5f7842d36a80cd871ded7c6261cf11?pvs=74  
+  * https://codro.notion.site/2-1a5f7842d36a80dd8c60c447200bcde4?pvs=74  
+  * https://codro.notion.site/3-ATM-1a5f7842d36a800fb1c7cdb6e52a7e9d?pvs=74  
+
+
+* sql    
+  * https://codro.notion.site/SQL1-2df65a60fcbb418780a88499cd005f46?pvs=74  
+  * https://codro.notion.site/SQL2-27f534df18f243c88df5bfd007fc5b2a  
+  * https://codro.notion.site/SQL1-5-1a5f7842d36a805f9979f134da1fca18?pvs=74  
+  * https://codro.notion.site/SQL2-1a5f7842d36a8091a489c060fd50ed4c?pvs=74  
+
+------
+</details>
+
 
 <details markdown="1">
 <summary><strong>📄 2022 KAKAO BLIND RECRUITMENT (프로그래머스)</summary></strong>
